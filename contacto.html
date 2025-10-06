@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Lingua | Contacto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="cabecera_principal contenedor"> 
+        <img src="img/logoGL.png" alt="Logo Global Lingua">
+        <h1>Global Lingua</h1>
+        <nav class="menu_principal"> 
+            <ul>
+                <a href="index.html"><li>Inicio</li></a>
+                <a href="oferta.html"><li>Nuestra Oferta</li></a>
+                <a href="registro.html"><li>Registro Aspirantes</li></a>
+                <a href="contacto.html" class="activo"><li>Contáctanos</li></a>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="contenedor">
+        <section class="sucursales">
+            <h2>Nuestras sucursales</h2>
+        </section>
+        <article class="tarjeta_sucursal">
+            <h3>Sucursal Centro (Principal)</h3>
+            <img src="img/sucursalCentro.png" alt="foto_centro">
+            <!--Etiqueta addess(se utiliza para proporcionar información de contacto para el article)-->
+            <address>
+                Calle Idiomas #123, Colonia Histórica. Horario: Lunes a Sabado 8:00 - 21:00.
+            </address> 
+        </article>
+        <article class="tarjeta_sucursal">
+            <h3>Sucursal Zona Norte</h3>
+            <img src="img/sucursalNorte.png" alt="foto_norte">
+            <address>
+                Av. Bilingüe #45, Plaza Lingüística. Horario: Lunes a Viernes 8:00 - 21:00.
+            </address> 
+        </article>
+        <article class="tarjeta_sucursal">
+            <h3>Sucursal Zona Sur</h3>
+            <img src="img/sucursalSur.png" alt="foto_sur">
+            <address>
+                Blv. Globalización 789, Avd. Mundial. Horario: Lunes a Viernes 8:00 - 21:00.
+            </address> 
+        </article>
+        <section id="formulario" class="formulario_preguntas">
+            <h2>Regístra tu Pregunta</h2>
+            <p>¿Tienes dudas sobre horarios o costos? Escríbenos, te responderemos en menos de 24 horas.</p>
+            <form action="" method="post" id="form_preguntas">
+                <fieldset>
+                <legend>Información</legend>
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" name="nombre" required>
+                <br>
+                <label for="correo">Correo Electronico</label>
+                <input type="text" name="correo" required>
+                <br>
+                <label for="pregunta">Pregunta</label>
+                <input type="text" name="pregunta">
+                <br>
+                <button type="submit">Enviar</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer class="pie_pagina">
+        <section class="contenedor enlaces_sociales">
+        <p>&copy; 2025 Global Lingua. Todos los derechos reservados.</p>
+        <a href="https://facebook.com/" target="_blank">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://instagram.com/" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://x.com/" target="_blank">
+            <i class="fab fa-x"></i>
+        </a>
+        </section>
+    </footer>
+</body>
+</html>

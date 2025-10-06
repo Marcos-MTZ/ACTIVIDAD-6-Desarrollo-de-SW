@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Lingua | Registro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="cabecera_principal contenedor"> 
+        <img src="img/logoGL.png" alt="Logo Global Lingua">
+        <h1>Global Lingua</h1>
+        <nav class="menu_principal"> 
+            <ul>
+                <a href="index.html"><li>Inicio</li></a>
+                <a href="oferta.html"><li>Nuestra Oferta</li></a>
+                <a href="registro.html" class="activo"><li>Registro Aspirantes</li></a>
+                <a href="contacto.html"><li>Contáctanos</li></a>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="contenedor formulario_aspirante">
+        <section class="bienvenida_registro">
+            <h2>Tu Conversación con el Mundo Comienza Aquí.</h2>
+            <p>Completa el siguiente formulario para que un asesor te contacte y finalice tu inscripción. ¡Es fácil y rápido!</p>
+            <img src="img/estudianteFeliz.jpg" alt="estudiante feliz">
+        <section>
+            <h3>Formulario de Pre-Registro</h3>
+        </section>
+        <form action="" method="post" id="form_registro">
+            <fieldset class="datos_personales">
+                <legend>Datos Personales</legend>
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" name="nombre" required>
+                <br>
+                <label for="telefono">Teléfono</label>
+                <input type="tel" name="telefono" required>
+                <br>
+                <label for="nacimiento">Fecha de nacimiento</label>
+                <input type="date" name="nacimiento">
+            </fieldset>
+            <fieldset class="interes_academico">
+                <legend> Interés Académico</legend>
+                <label for="idioma">Idioma de Interés</label>
+                <input type="checkbox" name="idioma"> Inglés
+                <input type="checkbox" name="idioma"> Francés
+                <input type="checkbox" name="idioma"> Alemán
+                <br>
+                <label for="nivel">Nivel actual</label>
+                <input type="radio" name="nivel"> Principiante
+                <input type="radio" name="nivel"> Intermedio
+                <input type="radio" name="nivel"> Avanzado
+            </fieldset>
+            <fieldset class="sucursal_preferida">
+                <legend>Preferencia de Sucursal</legend>
+                <label for="sucursal">Elige tu sucursal</label>
+                <select name="sucursal">
+                    <option value="1">Centro</option>
+                    <option value="2">Norte</option>
+                    <option value="3">Sur</option>
+                </select>
+            </fieldset>
+            <label for="terminos"></label>
+            <input type="checkbox" required>Acepto los Términos y Condiciones.
+            <br>
+            <button type="submit">Finalizar Registro</button>
+        </form>
+    </main>
+
+    <footer class="pie_pagina">
+        <section class="contenedor enlaces_sociales">
+        <p>&copy; 2025 Global Lingua. Todos los derechos reservados.</p>
+        <a href="https://facebook.com/" target="_blank">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://instagram.com/" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://x.com/" target="_blank">
+            <i class="fab fa-x"></i>
+        </a>
+        </section>
+    </footer>
+</body>
+</html>

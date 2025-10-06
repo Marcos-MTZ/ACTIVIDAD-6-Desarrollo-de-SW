@@ -1,0 +1,349 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.6;
+    color: #374151;
+    background-color: #F9FAFB;
+}
+
+.contenedor {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #1E40AF;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #60A5FA;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #1E40AF;
+}
+
+h2 { font-size: 2.2rem; }
+h3 { font-size: 1.8rem; }
+h4 { font-size: 1.4rem; }
+/* HEADER */
+.cabecera_principal {
+    background-color: #1E40AF;
+    color: white;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecera_principal h1 {
+    color: white;
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.cabecera_principal img {
+    height: 130px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.menu_principal ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu_principal li {
+    margin-right: 25px;
+}
+
+.menu_principal a {
+    color: white;
+    font-weight: 500;
+    padding: 5px 0;
+    border-bottom: 2px solid transparent;
+}
+
+.menu_principal a:hover li, .menu_principal a .activo {
+    color: #EFF6FF;
+    border-bottom: 2px solid white;
+}
+
+/* FOOTER */
+.pie_pagina {
+    background-color: #374151;
+    color: #D1D5DB;
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.pie_pagina {
+    display: flex;
+    justify-content: center ;
+}
+
+.enlaces_sociales i {
+    font-size: 1.5rem;
+    color: #D1D5DB;
+    margin: 0 10px;
+    padding-top: 10px;
+    transition: color 0.3s ease;
+}
+
+.enlaces_sociales i:hover {
+    color: #1E40AF;
+}
+
+/* FORMS */
+fieldset {
+    border: 1px solid #D1D5DB;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+}
+
+legend {
+    font-weight: 600;
+    color: #1E40AF;
+    padding: 0 10px;
+}
+/* INDEX */
+.seccion_principal {
+    background-color: #EFF6FF;
+    padding: 4rem 0;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.seccion_principal h2 {
+    color: #1E40AF;
+    font-size: 2.5rem;
+    max-width: 800px;
+    margin: 0 auto 1.5rem;
+}
+
+.seccion_principal img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.resumen_oferta {
+    padding: 2rem 0;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 30px;
+}
+
+.resumen_oferta h3 {
+    width: 100%; 
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.tarjeta_idioma {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    flex: 1;
+    min-width: 280px;
+    max-width: 350px;
+    text-align: center;
+}
+
+.tarjeta_idioma img {
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+}
+/* OFERTA */
+.detalles_cursos {
+    padding: 3rem 0;
+}
+
+.detalles_cursos article {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-left: 5px solid #1E40AF;
+    border-radius: 4px;
+}
+
+.detalles_cursos h3 {
+    border-bottom: 1px dashed #D1D5DB;
+    padding-bottom: 10px;
+}
+
+.detalles_cursos ul {
+    list-style-type: '— ';
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.metodologia {
+    background-color: #EFF6FF;
+    padding: 3rem 0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.metodologia p{
+    font-size: 1.5rem;
+}    
+
+.metodologia img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 6px;
+}
+
+
+/* REGISTRO */
+
+.bienvenida_registro { 
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.bienvenida_registro img{
+    max-width: 40%; 
+}
+.formulario_aspirante {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* CONTACTO */
+
+.sucursales {
+    padding: 3rem 0;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tarjeta_sucursal {
+    flex: 1;
+    min-width: 300px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.tarjeta_sucursal address {
+    font-style: normal;
+    margin-top: 10px;
+}
+
+.tarjeta_sucursal img {
+    width: 500px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin-top: 15px;
+    border-radius: 4px;
+    border: 1px solid #D1D5DB;  
+}
+
+.formulario_preguntas { 
+    background-color: #EFF6FF;
+    padding: 3rem 0;
+    margin-top: 3rem;
+    border-radius: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.formulario_preguntas form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 640px) {
+
+    h2 { font-size: 1.8rem; }
+    h3 { font-size: 1.4rem; }
+    
+    /* HEADER */
+    .cabecera_principal {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem 15px;
+    }
+
+    .cabecera_principal h1 {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .menu_principal ul {
+        flex-direction: column; 
+        text-align: center;
+        width: 100%;
+    }
+
+    .menu_principal li {
+        margin: 5px 0;
+    }
+
+    /* FOOTER */
+    .pie_pagina .contenedor {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* TARJETAS E IMAGENES */
+    .tarjeta_idioma {
+        min-width: 90%; 
+        margin-bottom: 20px;
+    }
+    
+    .formulario_aspirante {
+        padding: 20px;
+        margin: 0 10px;
+    }
+    
+    .sucursales {
+        flex-direction: column; 
+        gap: 20px;
+    }
+
+    .tarjeta_sucursal {
+        min-width: 90%;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+    .seccion_principal img,
+    .tarjeta_sucursal img,
+    .metodologia img {
+        width: 100%;
+        max-width: 100%;
+    }
+}
